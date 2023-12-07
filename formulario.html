@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="formulario.css">
+        <title>Formulario</title>
+    </head>
+    <body>
+        <div class="contenedor">
+            <div class="cont-tit">
+                <h1 class="tit">Bienvenido al formulario</h1>
+            </div>
+
+              
+            <div class="encuesta">
+                <div class="encuesta1">
+                    <div>
+                        <h6>1. ¿Como fue la insercion en el grupo de trabajo?</h6>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="1" id="1opc1" value="option1" checked>
+                        <label class="form-check-label" for="1opc1">Excelente, mis compañeros son un lujo.</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="1" id="1opc2" value="option2">
+                        <label class="form-check-label" for="1opc2">Bueno, Recien nos estamos conociendo.</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="1" id="1opc3" value="option3">
+                        <label class="form-check-label" for="1opc3">Malo, no tienen paciencia para explicar, espero que cambien!.</label>
+                    </div>
+                    <div class="boton">
+                        <button type="submit" class="btn btn-secondary mb-3 btnEnviar" id="enviar1">enviar</button>
+                    </div>
+                </div>
+                <div class="encuesta2">
+                    <div>
+                        <h6>2. Relacion con mi Superior</h6>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="2" id="2opc1" value="option1" checked>
+                        <label class="form-check-label" for="2opc1">Excelente, es buena onda y siempre que tengo un error me explica.</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="2" id="2opc2" value="option2">
+                        <label class="form-check-label" for="2opc2">Buena, nos llevamos bien y cada vez le entiendo mejor.</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="2" id="2opc3" value="option3">
+                        <label class="form-check-label" for="2opc3">Mala, todo error que cometo, me lo marca pero no me ayuda a resolverlo.</label>
+                    </div>
+                    <div class="boton">
+                        <button type="submit" class="btn btn-secondary mb-3 btnEnviar" id="enviar2">enviar</button>
+                    </div>
+                </div>
+                <div class="encuesta3">
+                    <div>
+                        <h6>3. Estructuralmente, como ves a la empresa</h6>
+                    </div>
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="3" id="3opc1" value="option1" checked>
+                    <label class="form-check-label" for="3opc1">Excelente, el pasaje de informacion es rapido y fluido.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="3" id="3opc2" value="option2">
+                    <label class="form-check-label" for="3opc2">Bueno, hay que mejorar algunos sistemas que no encajan.</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="3" id="3opc3" value="option3">
+                    <label class="form-check-label" for="3opc3">Malo, hay que mejorar todo tipo de comunicacion, hay veces que no llegan los datos.</label>
+                </div>
+                <div class="boton">
+                    <button type="submit" class="btn btn-secondary mb-3 btnEnviar" id="enviar3">enviar</button>
+                </div>
+            </div>
+            <div class="encuesta4">
+                <div>
+                    <h6>4. En la semana te sientes con mucho trabajo</h6>
+                </div>    
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="4" id="4opc1" value="option1" checked>
+                    <label class="form-check-label" for="4opc1">Si, yo agregaria gente en el grupo de trabajo asi nos dividimos las tareas y salen mejor los objetivos.</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="4" id="4opc2" value="option2">
+                    <label class="form-check-label" for="4opc2">Mas o Menos, hay semanas duras pero me la banco.</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="4" id="4opc3" value="option3">
+                    <label class="form-check-label" for="4opc3">No, muy tranquilo, por suerte hago lo que me gusta.</label>
+                </div>
+                <div class="boton">
+                    <button type="submit" class="btn btn-secondary mb-3 btnEnviar" id="enviar4">enviar</button>
+                </div>
+            </div>
+        </div>   
+        <div class="botlink">
+            <div class="boton1">
+                <a href="home.html?soyempleado=1" class="boton" id="irHome">
+                    <button type="submit" class="btn btn-secondary mb-3" id="irHome">ir a la Home</button>
+                </a>
+            </div>
+            <div class="boton">
+                <a href="index.html" class="boton">
+                    <button type="submit" class="btn btn-secondary mb-3">salir</button>
+                </a>
+            </div>
+        </div>
+    </div>
+<script src="encuestas.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+

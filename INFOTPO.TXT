@@ -1,0 +1,9 @@
+empleado (escribir en minusculas)
+
+usuario:empleado
+contraseña:empleado123
+
+coordinador (escribir en minusculas)
+
+usuario: coordinador
+contraseña: coordinador123
